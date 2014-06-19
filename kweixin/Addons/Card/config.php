@@ -5,7 +5,7 @@ for ($i=1; $i<11;$i++){
 }
 $bg[$i] = '自定义';
 return array (
-		'background' => array ( // 配置在表单中的键名 ,这个会是config[random]
+		'background' => array ( // 配置在表单中的键名 ,这个会是config[random]2
 				'title' => '背景图:', // 表单的文字
 				'type' => 'select', // 表单的类型：text、textarea、checkbox、radio、select等
 				'options'=>$bg,	
