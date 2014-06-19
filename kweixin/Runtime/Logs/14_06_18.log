@@ -1,0 +1,12 @@
+[ 2014-06-18T16:42:08+08:00 ] 27.20.68.60 /kweixin/index.php?s=/addon/CustomReply/CustomReply/edit/model/64.html
+ERR: 1062:Duplicate entry '1-gh_ccbc7c79380e' for key 'keyword_token'
+ [ SQL语句 ] : INSERT INTO `wp_keyword` (`addon`,`aim_id`,`extra_text`,`extra_int`,`token`,`cTime`,`keyword_type`,`keyword`,`keyword_length`) VALUES ('CustomReply',72,'custom_reply_news',0,'gh_ccbc7c79380e',1403080928,0,'1',1)
+
+[ 2014-06-18T17:01:03+08:00 ] 27.20.68.60 /kweixin/index.php?s=/addon/CustomReply/CustomReply/add/model/64.html
+ERR: 1062:Duplicate entry '1-gh_ccbc7c79380e' for key 'keyword_token'
+ [ SQL语句 ] : INSERT INTO `wp_keyword` (`addon`,`aim_id`,`extra_text`,`extra_int`,`token`,`cTime`,`keyword_type`,`keyword`,`keyword_length`) VALUES ('CustomReply',73,'custom_reply_news',0,'gh_ccbc7c79380e',1403082063,0,'1',1)
+
+[ 2014-06-18T17:02:21+08:00 ] 27.20.68.60 /kweixin/index.php?s=/addon/CustomReply/CustomReply/edit/model/64.html
+ERR: 1062:Duplicate entry '1-gh_ccbc7c79380e' for key 'keyword_token'
+ [ SQL语句 ] : INSERT INTO `wp_keyword` (`addon`,`aim_id`,`extra_text`,`extra_int`,`token`,`cTime`,`keyword_type`,`keyword`,`keyword_length`) VALUES ('CustomReply',73,'custom_reply_news',0,'gh_ccbc7c79380e',1403082140,0,'1',1)
+
