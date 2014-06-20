@@ -4,7 +4,7 @@ namespace Addons\Wedding\Model;
 use Home\Model\WeixinModel;
         	
 /**
- * Wedding的微信模型
+ * Wedding的微信模型1
  */
 class WeixinAddonModel extends WeixinModel{
 
