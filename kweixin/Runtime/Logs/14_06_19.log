@@ -1,8 +1,0 @@
-[ 2014-06-19T09:16:43+08:00 ] 111.176.19.85 /kweixin/index.php?s=/addon/CustomReply/CustomReply/edit/model/64.html
-ERR: 1062:Duplicate entry '宝贝秀第一期-gh_ccbc7c79380e' for key 'keyword_token'
- [ SQL语句 ] : INSERT INTO `wp_keyword` (`addon`,`aim_id`,`extra_text`,`extra_int`,`token`,`cTime`,`keyword_type`,`keyword`,`keyword_length`) VALUES ('CustomReply',71,'custom_reply_news',0,'gh_ccbc7c79380e',1403140603,0,'宝贝秀第一�\�',18)
-
-[ 2014-06-19T09:43:58+08:00 ] 111.176.19.85 /kweixin/index.php?s=/addon/WeiSite/Cms/edit/model/64.html
-ERR: 1062:Duplicate entry '11-gh_ccbc7c79380e' for key 'keyword_token'
- [ SQL语句 ] : INSERT INTO `wp_keyword` (`addon`,`aim_id`,`extra_text`,`extra_int`,`token`,`cTime`,`keyword_type`,`keyword`,`keyword_length`) VALUES ('WeiSite',72,'custom_reply_news',0,'gh_ccbc7c79380e',1403142238,0,'11',2)
-

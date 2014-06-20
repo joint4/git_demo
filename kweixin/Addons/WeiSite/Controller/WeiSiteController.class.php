@@ -117,10 +117,22 @@ class WeiSiteController extends BaseController {
 		foreach ( $one_arr as &$p ) {
 			$two_arr = array ();
 			foreach ( $list as $key => $l ) {
+				$c=explode('http://',$l['url']);
+				if(count($c)>1){
+					$l['url'] = $l['url'];
+				}else{
+					$l['url'] =  SITE_URL .$l['url'];
+				}
+				
+				
+				
 				if ($l ['pid'] != $p ['id'])
 					continue;
 				
 				$two_arr [] = $l;
+				
+				
+				
 				unset ( $list [$key] );
 			}
 			

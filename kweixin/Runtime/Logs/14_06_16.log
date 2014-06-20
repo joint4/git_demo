@@ -1,8 +1,0 @@
-[ 2014-06-16T14:27:55+08:00 ] 27.20.22.127 /kweixin/index.php?s=/addon/Photo/Photo/add/model/109.html
-ERR: 1062:Duplicate entry 'test-gh_ccbc7c79380e' for key 'keyword_token'
- [ SQL语句 ] : INSERT INTO `wp_keyword` (`addon`,`aim_id`,`extra_text`,`extra_int`,`token`,`cTime`,`keyword_type`,`keyword`,`keyword_length`) VALUES ('Photo',4,'',0,'gh_ccbc7c79380e',1402900075,0,'test',4)
-
-[ 2014-06-16T20:59:53+08:00 ] 27.20.22.127 /kweixin/index.php?s=/addon/WeiSite/Cms/edit/model/64.html
-ERR: 1062:Duplicate entry '健康保健-gh_ccbc7c79380e' for key 'keyword_token'
- [ SQL语句 ] : INSERT INTO `wp_keyword` (`addon`,`aim_id`,`extra_text`,`extra_int`,`token`,`cTime`,`keyword_type`,`keyword`,`keyword_length`) VALUES ('WeiSite',64,'custom_reply_news',0,'gh_ccbc7c79380e',1402923593,3,'健康保健',12)
-
