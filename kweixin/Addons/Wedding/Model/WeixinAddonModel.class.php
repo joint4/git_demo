@@ -56,7 +56,7 @@ class WeixinAddonModel extends WeixinModel{
 	
 	// 自定义菜单事件
 	public function click() {
-		$res = $this->replyText ( '234234' );
+		//$res = $this->replyText ( '234234' );
 	
 	
 	}	
